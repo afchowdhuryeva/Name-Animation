@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(207, 149, 149);
+    background-color: whitesmoke;
 }
 .content{
     position: relative;
@@ -27,11 +27,11 @@ body{
 }
 .content h1:nth-child(2){
     color: #03a9f4;
-    animation: animate 5s ease-in-out; 
+    animation: animate 10s ease-in-out; 
 }
 
 @keyframes animate{
-    0%,100%{
+    0%{
         clip-path: polygon(2% 43%, 6% 45%, 12% 48%, 16% 51%, 21% 53%, 26% 53%, 32% 53%, 37% 52%, 42% 52%, 46% 52%, 49% 50%, 54% 47%, 57% 43%, 61% 40%, 65% 39%, 69% 39%, 74% 40%, 77% 43%, 83% 44%, 86% 45%, 91% 46%, 96% 48%, 100% 49%, 100% 99%, 1% 98%);
 
     }
